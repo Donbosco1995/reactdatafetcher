@@ -9,7 +9,7 @@ function App () {
     .then(data => setUsers( data ))
     .catch(err => console.log(err))
   }, [])
-
+console.log("hi");
 return (
   <div>
     <center><h1 style={{ color: "gray" }}> API FETCHING </h1></center>
